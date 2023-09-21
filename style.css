@@ -1,0 +1,77 @@
+html, body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.3em;
+    font-family: "loto" sans-serif;
+    font-weight: 400;
+    color: #ccc;
+}
+
+.pimg1{
+    background-image: url(images/image1.png);
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pimg2{
+    background-image: url(images/image2.png);
+    height: 400px;
+}
+
+.pimg3{
+    background-image: url(images/image3.png);
+    height: 400px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: 600; 
+}
+
+.textbg{
+    background-color: #454747;
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.section{
+    padding: 60px;
+    text-align: center;
+    color: #a19e9e;
+}
+
+.section h1{
+    text-transform: uppercase;
+    color: #434545;
+    font-size: xx-large;
+}
+
+.section-dark{
+    background-color: #434545;
+    color: #fff;
+}
+
+.section-dark h1{
+        color: #fff;
+}
